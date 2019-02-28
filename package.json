@@ -4,7 +4,9 @@
   "description": "Learning",
   "main": "src/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest src",
+    "start": "node src/index.js",
+    "integration": "jest integration-tests"
   },
   "repository": {
     "type": "git",
@@ -22,6 +24,7 @@
     "restify": "^8.0.0"
   },
   "devDependencies": {
+    "axios": "^0.18.0",
     "jest": "^24.1.0"
   },
   "jest": {

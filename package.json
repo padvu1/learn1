@@ -1,0 +1,24 @@
+{
+  "name": "learn1",
+  "version": "1.0.0",
+  "description": "Learning",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/padvu1/learn1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/padvu1/learn1/issues"
+  },
+  "homepage": "https://github.com/padvu1/learn1#readme",
+  "dependencies": {
+    "nconf": "^0.10.0",
+    "nconf-yaml": "^1.0.2",
+    "restify": "^8.0.0"
+  }
+}

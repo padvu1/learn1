@@ -14,6 +14,6 @@ const response = require("./response");
 
 describe("response tests", () => {
   test("response returns branch and version", () => {
-    expect(response()).toEqual("hello I am built on tr and with version 0.0.0");
+    expect(response()).toEqual("hi I am built on tr and with version 0.0.0");
   });
 });
